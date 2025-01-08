@@ -1,0 +1,317 @@
+.menu-icon {
+  display: none;
+}
+
+@media(max-width:991px){
+
+}
+
+@media (max-width: 768px) {
+
+    .navbar-center .nav-links {
+        display: none;
+      }
+      .btn {
+        display: none;
+      }
+      .navbar-left .logo {
+        width: 120px; 
+      }
+      /* ------------------Third-Navbar -------------------*/
+      .third-navbar {
+        padding: 10px 5%;
+      }
+    
+      .third-navbar .icon {
+        padding: 10px;
+        font-size: 18px;
+      }
+    
+      .third-navbar .text p:first-child {
+        font-size: 12px;
+      }
+    
+      .third-navbar .text p:last-child {
+        font-size: 10px;
+      }
+    
+    
+      .third-navbar .navbar-item {
+        flex-direction: column;
+        text-align: center;
+        margin-bottom: 10px;
+      }
+    
+      .third-navbar .navbar-item:last-child {
+        margin-bottom: 0; 
+      }
+
+      /* --------------Image Section -------------------*/
+
+      .content-overlay h1 {
+        font-size: 25px; 
+      }
+    
+      .content-overlay p {
+        font-size: 16px; 
+      }
+    
+      .buttons .btn {
+        padding: 12px 18px;
+        font-size: 14px;
+      }
+    
+      .content-overlay p {
+        max-width: 500px; 
+      }
+
+    .image-gallery {
+      grid-template-columns: repeat(2, 1fr);
+    }
+    .lining-container {
+        flex-direction: column; 
+        text-align: center;
+      }
+    
+      .left-side, .right-side {
+        width: 100%;
+        margin-bottom: 20px; 
+      }
+    
+      .contact-btn {
+        width: 100%; 
+      }
+
+      .container {
+        flex-direction: column;
+        align-items: center;
+    }
+  
+    .footer-column {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+          /* ---------------This is the Testimonial Section Resposiveness -----------------*/
+          .testimonial-section {
+            padding: 40px 20px; 
+           
+          }
+        
+          .testimonial-heading {
+            font-size: 32px; 
+            text-align: left;
+          }
+        
+          .testimonial-cards-container {
+            flex-direction: column; 
+            align-items: center; 
+            gap: 30px; 
+          }
+        
+          .testimonial-card {
+            width: 85%; 
+            height: auto; 
+            padding: 25px; 
+            margin-bottom: 20px; 
+            background-color: #0a808c; 
+          }
+        
+          .testimonial-card:nth-child(2) {
+            background-color: #000000; 
+          }
+        
+          .testimonial-card:nth-child(3) {
+            background-color: #27ae60; 
+          }
+        
+          .testimonial-paragraph {
+            font-size: 16px; 
+            line-height: 24px;
+          }
+        
+          .testimonial-author-name {
+            font-size: 20px; 
+          }
+        
+          .testimonial-stars {
+            gap: 8px; 
+          }
+        
+          .star {
+            font-size: 30px; 
+          }
+        
+          .testimonial-icon {
+            position: absolute;
+            bottom: 10px; 
+            right: 10px; 
+            font-size: 35px; 
+          }
+        
+          .view-all-btn {
+            font-size: 16px; 
+            padding: 12px 30px;
+          }
+          /*--------------------------- This is Making Sidebar -----------------------------*/
+  
+          .menu-icon {
+            display: block;
+          }
+        
+          .navbar-center {
+            display: none; 
+          }
+        
+          .navbar-right {
+            display: none; 
+          }
+        
+          #sidebar ul {
+            padding-top: 20px;
+          }
+        
+          #sidebar li {
+            margin-top: 0;
+          }
+        }
+
+@media (max-width: 480px) {
+
+    .content-overlay h1{
+        font-size: 28px; 
+        margin-bottom: 5px; 
+        white-space: nowrap;
+    }
+    .content-overlay p {
+        font-size: 14px; 
+        padding-top: 15px;
+      }
+
+     
+      .custom-section {
+        flex-direction: column; 
+        padding: 20px 10%;
+      }
+    
+      .content-container {
+        flex-direction: column;
+        align-items: center; 
+      }
+    
+      .left-text {
+        width: 100%; 
+        padding-right: 0;
+        margin-bottom: 20px; 
+      }
+    
+      .left-text h2 {
+        font-size: 24px; 
+      }
+    
+      .left-text .black-text,
+      .left-text .grey-text {
+        font-size: 14px; 
+      }
+    
+      .icon-section {
+        display: flex;
+        justify-content: space-between; 
+        margin-top: 30px; 
+        width: 100%; 
+      }
+    
+      .left-column,
+      .right-column {
+        width: 48%; 
+        align-items: flex-start; 
+        display: flex;
+        flex-direction: column;
+        gap: 10px; 
+      }
+    
+      .icon-item {
+        font-size: 16px; 
+        margin-bottom: 10px; 
+      }
+    
+      .bottom-section {
+        flex-direction: column;
+        align-items: center;
+        margin-top: 40px; 
+      }
+    
+      .read-more-btn {
+        padding: 10px 20px; 
+        font-size: 14px; 
+      }
+    
+      .right-bottom h3 {
+        font-size: 30px; 
+      }
+    
+      .right-bottom p {
+        font-size: 14px; 
+      }
+    
+      .right-image img {
+        max-width: 100%; 
+        margin-right: 0;
+        margin-bottom: 20px;
+      }
+
+      /* ---------------This is the Testimonial Section Resposiveness -----------------*/
+
+      .testimonial-section {
+        padding: 30px 10px; 
+      }
+    
+      .testimonial-heading {
+        font-size: 24px; 
+      }
+    
+      .testimonial-cards-container {
+        flex-direction: column; 
+        align-items: center; 
+      }
+    
+      .testimonial-card {
+        width: 90%; 
+        height: auto; 
+        margin-bottom: 20px; 
+        padding: 15px; 
+      }
+    
+      .testimonial-stars {
+        gap: 3px; 
+      }
+    
+      .star {
+        font-size: 20px; 
+      }
+    
+      .testimonial-paragraph {
+        font-size: 12px; 
+        line-height: 22px;
+      }
+    
+      .testimonial-author-name {
+        font-size: 14px; 
+      }
+    
+      .view-all-btn {
+        font-size: 14px; 
+        padding: 6px 12px;
+      }
+
+
+
+
+
+
+
+
+    .image-gallery {
+      grid-template-columns: 1fr; 
+    }
+  }
