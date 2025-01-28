@@ -1,1 +1,1 @@
-# Sample-website
+This is a simple web application for a Packers and Movers service, designed to showcase the company's offerings and provide an easy way for users to get in touch for their relocation needs. The website is built using HTML, CSS, JavaScript, and responsive CSS to ensure compatibility across devices.
