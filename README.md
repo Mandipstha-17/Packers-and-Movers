@@ -32,7 +32,7 @@ Packers-and-Movers/
 ```
 HTML5
 CSS3
-JavaScript (Vanilla)
+JavaScript 
 Responsive Design (Media Queries)
 ```
 
